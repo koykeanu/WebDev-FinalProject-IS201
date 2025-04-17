@@ -1,0 +1,70 @@
+body {
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(55, 22, 0);
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: slateblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: red;
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+.box {
+    width: 600px;
+    margin: 40px auto; 
+    padding: 30px; 
+    background-color: rgba(55, 22, 0); 
+    border: 2px solid #0037ff;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  .container /* Putting my box and video on same "line" */ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .vidiframe { /* Give Youtubve Video nice rounded edges and shadow */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.wrapper { /* Positioning and Styling my Non-Bootstrap Img*/
+    display: inline-block;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .wrapper img { /* Positioning and Styling my Non-Bootstrap Img*/
+    width: 100%;
+    height: auto;
+    border-radius: 12px; 
+    box-shadow: 0 4px 25px rgb(0, 9, 184, 0.70);
+    display: block;
+    margin: 0;
+    border: 4px solid white; 
+  }
